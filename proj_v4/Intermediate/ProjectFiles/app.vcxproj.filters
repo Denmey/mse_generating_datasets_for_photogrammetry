@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\app.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{FAC5004C-5E13-4453-87DE-5E713B16EE4A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\app.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\appEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{46F70E62-EC16-44EB-92C6-9B4F92B35EB6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\app">
+      <UniqueIdentifier>{09E2C166-906B-4542-9DBE-EAC4F689C0A0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\app\app.Build.cs">
+      <Filter>Source\app</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\app\app.cpp">
+      <Filter>Source\app</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\app\app.h">
+      <Filter>Source\app</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\app\MyActor.cpp">
+      <Filter>Source\app</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\app\MyActor.h">
+      <Filter>Source\app</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\app\MyPawn.cpp">
+      <Filter>Source\app</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\app\MyPawn.h">
+      <Filter>Source\app</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

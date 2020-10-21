@@ -29,22 +29,6 @@
 			"Type": "Executable"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/RuntimeMeshComponent/Binaries/Win64/UE4Editor-RuntimeMeshComponent.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/RuntimeMeshComponent/Binaries/Win64/UE4Editor-RuntimeMeshComponent.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/RuntimeMeshComponent/Binaries/Win64/UE4Editor-RuntimeMeshComponentEditor.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/RuntimeMeshComponent/Binaries/Win64/UE4Editor-RuntimeMeshComponentEditor.pdb",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -2229,10 +2213,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/RuntimeMeshComponent/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2636,10 +2616,6 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/app.uproject",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/RuntimeMeshComponent/RuntimeMeshComponent.uplugin",
 			"Type": "UFS"
 		},
 		{

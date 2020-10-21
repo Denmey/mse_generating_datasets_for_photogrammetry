@@ -1,0 +1,5 @@
+C:\Users\Yoseb\Desktop\proj_v4\Intermediate\Build\Win64\UE4Editor\Development\app\Definitions.app.h
+D:\UE4\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UE4\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Yoseb\Desktop\proj_v4\Source\app/MyActor.h
+C:\Users\Yoseb\Desktop\proj_v4\Intermediate\Build\Win64\UE4Editor\Inc\app\MyActor.generated.h
