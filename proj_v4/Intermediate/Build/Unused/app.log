@@ -1,0 +1,16 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\marin\Desktop\DataMaker\LAST_REPO).
+  Parsing headers for appEditor
+    Running UnrealHeaderTool "C:\Users\marin\Desktop\DataMaker\LAST_REPO\proj_v4\app.uproject" "C:\Users\marin\Desktop\DataMaker\LAST_REPO\proj_v4\Intermediate\Build\Win64\appEditor\Development\appEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\marin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for appEditor in 6,4664623 seconds
+  Building appEditor...
+  Using Visual Studio 2019 14.27.29112 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 8 processes...
+    [1/5] LightSource.cpp
+    [2/5] LightSource.gen.cpp
+    [3/5] UE4Editor-app-0040.lib
+       ��������� ������⥪� C:\Users\marin\Desktop\DataMaker\LAST_REPO\proj_v4\Intermediate\Build\Win64\UE4Editor\Development\app\UE4Editor-app-0040.lib � ��ꥪ� C:\Users\marin\Desktop\DataMaker\LAST_REPO\proj_v4\Intermediate\Build\Win64\UE4Editor\Development\app\UE4Editor-app-0040.exp
+    [4/5] UE4Editor-app-0040.dll
+       ��������� ������⥪� C:\Users\marin\Desktop\DataMaker\LAST_REPO\proj_v4\Intermediate\Build\Win64\UE4Editor\Development\app\UE4Editor-app-0040.suppressed.lib � ��ꥪ� C:\Users\marin\Desktop\DataMaker\LAST_REPO\proj_v4\Intermediate\Build\Win64\UE4Editor\Development\app\UE4Editor-app-0040.suppressed.exp
+    [5/5] appEditor.target
+  Total time in Parallel executor: 2,27 seconds
+  Total execution time: 9,46 seconds
