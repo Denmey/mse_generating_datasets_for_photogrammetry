@@ -1,0 +1,1589 @@
+﻿Log file open, 10/29/20 18:46:04
+LogInit: Display: Running engine for game: app
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.645828
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-4771 CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1660 SUPER
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=NamYoSeb -epicuserid=4d4528aaa9cc4eca8bc9e74b9ab4d3e4 -epiclocale=en
+LogInit: Base Directory: D:/UE4/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Engine.ini]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Engine.ini]
+[2020.10.29-15.46.04:880][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Engine.ini]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Engine.ini]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.29-15.46.04:880][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.29-15.46.04:881][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.29-15.46.04:881][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.29-15.46.04:881][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.29-15.46.04:881][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.29-15.46.04:881][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.29-15.46.04:881][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.29-15.46.04:881][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.29-15.46.04:881][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.29-15.46.04:881][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Engine.ini]
+[2020.10.29-15.46.04:881][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Engine.ini]
+[2020.10.29-15.46.04:886][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.29-15.46.04:887][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.29-15.46.04:888][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.29-15.46.04:888][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.29-15.46.04:888][  0]LogHAL: Display: Platform has ~ 24 GB [25652178944 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.29-15.46.04:888][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.29-15.46.04:888][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.29-15.46.04:888][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Scalability.ini]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.29-15.46.04:889][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Config/Windows/Engine.ini]
+[2020.10.29-15.46.04:889][  0]LogInit: Computer: YOSEB-PC
+[2020.10.29-15.46.04:889][  0]LogInit: User: Yoseb
+[2020.10.29-15.46.04:889][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.29-15.46.04:890][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.29-15.46.04:890][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2020.10.29-15.46.04:890][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.29-15.46.04:890][  0]LogMemory: Process Physical Memory: 119.16 MB used, 119.16 MB peak
+[2020.10.29-15.46.04:890][  0]LogMemory: Process Virtual Memory: 104.51 MB used, 104.51 MB peak
+[2020.10.29-15.46.04:890][  0]LogMemory: Physical Memory: 8161.13 MB used,  16302.69 MB free, 24463.82 MB total
+[2020.10.29-15.46.04:890][  0]LogMemory: Virtual Memory: 5153.00 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2020.10.29-15.46.04:895][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.29-15.46.04:930][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.29-15.46.04:930][  0]LogInit: Using OS detected language (en-US).
+[2020.10.29-15.46.04:930][  0]LogInit: Using OS detected locale (en-US).
+[2020.10.29-15.46.04:932][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.29-15.46.05:137][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.29-15.46.05:170][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.29-15.46.05:170][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.29-15.46.05:333][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.29-15.46.05:333][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.29-15.46.05:333][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.29-15.46.05:333][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.29-15.46.05:416][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 SUPER' (Feature Level 11_0)
+[2020.10.29-15.46.05:416][  0]LogD3D11RHI:       5991/0/12231 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.10.29-15.46.05:425][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2020.10.29-15.46.05:425][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.10.29-15.46.05:427][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.29-15.46.05:427][  0]LogD3D11RHI:       0/0/12231 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.29-15.46.05:427][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.29-15.46.05:435][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.29-15.46.05:436][  0]LogD3D11RHI:     GPU DeviceId: 0x21c4 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.29-15.46.05:436][  0]LogWindows: EnumDisplayDevices:
+[2020.10.29-15.46.05:436][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 SUPER' (P:1 D:1)
+[2020.10.29-15.46.05:436][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2020.10.29-15.46.05:436][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2020.10.29-15.46.05:436][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2020.10.29-15.46.05:437][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2020.10.29-15.46.05:437][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.10.29-15.46.05:437][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.10.29-15.46.05:437][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.10.29-15.46.05:437][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 SUPER
+[2020.10.29-15.46.05:437][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.10.29-15.46.05:437][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.10.29-15.46.05:437][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2020.10.29-15.46.05:487][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.29-15.46.05:489][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.10.29-15.46.05:489][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.29-15.46.05:489][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.29-15.46.05:517][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.29-15.46.05:953][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.29-15.46.05:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.29-15.46.05:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.29-15.46.05:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.29-15.46.05:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.29-15.46.05:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.29-15.46.05:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.29-15.46.05:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.29-15.46.05:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.29-15.46.05:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.29-15.46.05:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.29-15.46.05:999][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.29-15.46.05:999][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.29-15.46.06:009][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.29-15.46.06:019][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.29-15.46.06:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.29-15.46.06:038][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.29-15.46.06:048][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.29-15.46.06:061][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.29-15.46.06:072][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.29-15.46.06:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.29-15.46.06:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.29-15.46.06:115][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.29-15.46.06:115][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.29-15.46.06:125][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.29-15.46.06:135][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.29-15.46.06:144][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.29-15.46.06:155][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.29-15.46.06:155][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.29-15.46.06:163][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.29-15.46.06:223][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Intermediate/Shaders/WorkingDirectory/1904/).
+[2020.10.29-15.46.06:223][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Yoseb/AppData/Local/Temp/UnrealShaderWorkingDir/E196941945B67696452CC0BA9D8BBEF3/'.
+[2020.10.29-15.46.06:224][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.29-15.46.06:224][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.29-15.46.06:224][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.29-15.46.07:089][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.29-15.46.07:152][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/Yoseb/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.29-15.46.07:152][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Yoseb/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.29-15.46.07:152][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.29-15.46.07:152][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.29-15.46.07:152][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.29-15.46.07:152][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.29-15.46.07:163][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.29-15.46.07:163][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.29-15.46.07:163][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.29-15.46.07:164][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Yoseb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.29-15.46.07:164][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.29-15.46.07:164][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.29-15.46.07:218][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.29-15.46.07:219][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.29-15.46.07:245][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2020.10.29-15.46.07:499][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.29-15.46.07:620][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.29-15.46.07:620][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.29-15.46.07:620][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.29-15.46.07:620][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.29-15.46.07:620][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.29-15.46.07:653][  0]LogNetVersion: app 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2926586276)
+[2020.10.29-15.46.08:084][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000027B24BA0100), frame # 0
+[2020.10.29-15.46.08:085][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B25ACAAC0), frame # 0
+[2020.10.29-15.46.08:086][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B24B50A00), frame # 0
+[2020.10.29-15.46.08:124][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.032978 seconds
+[2020.10.29-15.46.08:129][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.29-15.46.08:129][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.29-15.46.08:129][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.29-15.46.08:475][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.29-15.46.08:485][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.29-15.46.08:588][  0]SourceControl: Source control is disabled
+[2020.10.29-15.46.08:588][  0]SourceControl: Source control is disabled
+[2020.10.29-15.46.08:591][  0]SourceControl: Source control is disabled
+[2020.10.29-15.46.08:594][  0]SourceControl: Source control is disabled
+[2020.10.29-15.46.08:601][  0]SourceControl: Source control is disabled
+[2020.10.29-15.46.08:829][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.29-15.46.08:848][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.29-15.46.08:848][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.29-15.46.08:899][  0]LogOcInput: OculusInput pre-init called
+[2020.10.29-15.46.08:908][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.29-15.46.08:908][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.29-15.46.08:975][  0]LogEngine: Initializing Engine...
+[2020.10.29-15.46.08:976][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.29-15.46.08:976][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.29-15.46.08:977][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.29-15.46.09:104][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.29-15.46.09:111][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.29-15.46.09:111][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B28E11C00), frame # 0
+[2020.10.29-15.46.09:111][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B28E44680), frame # 0
+[2020.10.29-15.46.09:128][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-15.46.09:128][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-15.46.09:128][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-15.46.09:128][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-15.46.09:128][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-15.46.09:128][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-15.46.09:128][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-15.46.09:128][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-15.46.09:128][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-15.46.09:128][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-15.46.09:141][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-15.46.09:141][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-15.46.09:175][  0]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-15.46.09:178][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-15.46.09:181][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-15.46.09:181][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-15.46.09:182][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-15.46.09:183][  0]LogInit: FAudioDevice initialized.
+[2020.10.29-15.46.09:184][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.29-15.46.09:268][  0]LogDerivedDataCache: Saved boot cache 0.08s 76MB C:/Users/Yoseb/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.29-15.46.09:268][  0]LogInit: Texture streaming: Enabled
+[2020.10.29-15.46.09:284][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.29-15.46.09:284][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.29-15.46.09:286][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.29-15.46.09:323][  0]LogInit: Transaction tracking system initialized
+[2020.10.29-15.46.09:344][  0]BlueprintLog: New page: Editor Load
+[2020.10.29-15.46.09:411][  0]LocalizationService: Localization service is disabled
+[2020.10.29-15.46.09:563][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.29-15.46.09:563][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.29-15.46.09:571][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Content/' took 0.00s
+[2020.10.29-15.46.09:894][  0]SourceControl: Source control is disabled
+[2020.10.29-15.46.10:028][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.29-15.46.27:415][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2020.10.29-15.46.27:415][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.29-15.46.27:457][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.29-15.46.30:989][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2020.10.29-15.46.30:990][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.29-15.46.30:998][  0]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Basic/BasicSettings
+[2020.10.29-15.46.31:009][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.29-15.46.31:009][  0]LogUnrealEdMisc: Loading editor; pre map load, took 28.041
+[2020.10.29-15.46.31:010][  0]Cmd: MAP LOAD FILE="C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Content/Maps/StantardScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.29-15.46.31:011][  0]LightingResults: New page: Lighting Build
+[2020.10.29-15.46.31:012][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-15.46.31:012][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-15.46.31:012][  0]MapCheck: New page: Map Check
+[2020.10.29-15.46.31:012][  0]LightingResults: New page: Lighting Build
+[2020.10.29-15.46.31:025][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B28E11C00), frame # 0
+[2020.10.29-15.46.31:025][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B28E44680), frame # 0
+[2020.10.29-15.46.31:026][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.10.29-15.46.31:213][  0]LogLinker: Warning: Asset 'C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Content/toolbar_BP/popup_help.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.10.29-15.46.31:302][  0]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-15.46.31:302][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B16BA9000), frame # 0
+[2020.10.29-15.46.31:302][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B16C411C0), frame # 0
+[2020.10.29-15.46.31:306][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.29-15.46.31:321][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.10.29-15.46.31:322][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.29-15.46.31:322][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.232ms to complete.
+[2020.10.29-15.46.31:322][  0]LogFileHelpers: Loading map 'StantardScene' took 0.313
+[2020.10.29-15.46.31:325][  0]LogUnrealEdMisc: Total Editor Startup Time, took 28.357
+[2020.10.29-15.46.31:429][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.46.31:439][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.46.31:451][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.46.31:462][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.46.31:469][  0]LogCollectionManager: Loaded 0 collections in 0.001887 seconds
+[2020.10.29-15.46.31:482][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Collections/' took 0.00s
+[2020.10.29-15.46.31:482][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Content/Developers/Yoseb/Collections/' took 0.00s
+[2020.10.29-15.46.31:482][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Content/Collections/' took 0.00s
+[2020.10.29-15.46.31:482][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3430 classes and 823 folders.
+[2020.10.29-15.46.31:484][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.29-15.46.31:530][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.10.29-15.46.31:532][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.10.29-15.46.31:669][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.29-15.46.31:673][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.29-15.46.31:715][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.10.29-15.46.31:764][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.29-15.46.31:807][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.29-15.46.31:807][  0]LogLoad: (Engine Initialization) Total time: 28.84 seconds
+[2020.10.29-15.46.31:807][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.29-15.46.31:852][  0]LogAssetRegistry: Asset discovery search completed in 24.6076 seconds
+[2020.10.29-15.46.31:857][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.10.29-15.46.31:858][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.29-15.46.32:852][ 94]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.29-15.46.36:881][524]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Content/' took 5.06s
+[2020.10.29-15.46.38:699][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.29-15.46.46:894][635]Cmd: DELETE
+[2020.10.29-15.46.46:894][635]Cmd: ACTOR DELETE
+[2020.10.29-15.46.46:905][635]LogEditorActor: Deleted Actor: LightSource
+[2020.10.29-15.46.46:914][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.10.29-15.46.46:916][635]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2020.10.29-15.46.48:226][792]Cmd: TRANSACTION UNDO
+[2020.10.29-15.46.48:226][792]LogEditorTransaction: Undo Delete Actors
+[2020.10.29-15.46.50:383][979]LogEditor: Attempting to add actor of class 'MyCamera' to level at -1480.00,700.00,620.00
+[2020.10.29-15.46.51:013][ 48]LogEditor: Attempting to add actor of class 'MyCamera' to level at -680.00,-10.00,20.00
+[2020.10.29-15.47.01:715][278]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.29-15.47.02:850][404]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera1)
+[2020.10.29-15.47.09:839][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.29-15.47.10:909][321]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera1)
+[2020.10.29-15.47.14:186][670]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera1)
+[2020.10.29-15.47.23:308][697]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-15.47.23:323][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-15.47.23:323][697]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 9:47:23 PM)
+[2020.10.29-15.47.23:324][697]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.10.29-15.47.23:325][697]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.10.29-15.47.23:325][697]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-15.47.23:327][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001477s)
+[2020.10.29-15.47.23:328][697]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-15.47.23:328][697]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B4B02DA00), frame # 5697
+[2020.10.29-15.47.23:328][697]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B170F1A80), frame # 5697
+[2020.10.29-15.47.23:328][697]LogPlayLevel: PIE: World Init took: (0.001072s)
+[2020.10.29-15.47.23:328][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.002643s)
+[2020.10.29-15.47.23:338][697]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.10.29-15.47.23:340][697]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-15.47.23:340][697]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-15.47.23:340][697]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-15.47.23:340][697]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-15.47.23:340][697]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-15.47.23:340][697]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-15.47.23:341][697]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-15.47.23:341][697]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-15.47.23:341][697]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-15.47.23:341][697]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-15.47.23:344][697]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-15.47.23:344][697]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-15.47.23:361][697]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-15.47.23:361][697]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-15.47.23:361][697]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-15.47.23:361][697]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-15.47.23:362][697]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-15.47.23:374][697]LogInit: FAudioDevice initialized.
+[2020.10.29-15.47.23:382][697]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-15.47.23:384][697]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-18.47.23
+[2020.10.29-15.47.23:384][697]LogWorld: Bringing up level for play took: 0.000845
+[2020.10.29-15.47.23:385][697]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.10.29-15.47.23:387][697]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.10.29-15.47.23:397][697]PIE: Server logged in
+[2020.10.29-15.47.23:398][697]PIE: Play in editor total start time 0.079 seconds.
+[2020.10.29-15.47.28:836][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.47.28:836][310]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-15.47.28:836][310]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-15.47.28:836][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-15.47.28:844][310]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-15.47.28:846][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-15.47.28:871][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.47.28:872][310]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B170F1A80), frame # 6310
+[2020.10.29-15.47.28:872][310]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B4B02DA00), frame # 6310
+[2020.10.29-15.47.28:873][310]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.10.29-15.47.28:904][311]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.10.29-15.47.31:964][657]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera1)
+[2020.10.29-15.47.37:669][260]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera1)
+[2020.10.29-15.47.43:420][909]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/app.MyCamera
+[2020.10.29-15.47.51:492][915]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Source/app/MyCamera.h'
+[2020.10.29-15.47.51:496][915]LogVSAccessor: Warning: Couldn't open file 'C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Source/app/MyCamera.cpp'.
+[2020.10.29-15.49.26:384][198]LogHotReload: New module detected: UE4Editor-app-0053.dll
+[2020.10.29-15.49.27:082][201]LogHotReload: Starting Hot-Reload from IDE
+[2020.10.29-15.49.27:119][201]LogHotReload: Re-instancing MyCamera after hot-reload.
+[2020.10.29-15.49.27:181][201]LogContentBrowser: Native class hierarchy updated for 'app' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.10.29-15.49.27:182][201]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2020.10.29-15.49.27:229][201]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 3430 classes and 823 folders.
+[2020.10.29-15.49.27:233][201]Display: HotReload took  0.2s.
+[2020.10.29-15.49.29:619][321]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera1)
+[2020.10.29-15.49.30:381][409]Cmd: DELETE
+[2020.10.29-15.49.30:381][409]Cmd: ACTOR DELETE
+[2020.10.29-15.49.30:385][409]LogEditorActor: Deleted Actor: MyCamera
+[2020.10.29-15.49.30:404][409]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.10.29-15.49.30:406][409]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.10.29-15.49.31:329][507]LogEditor: Attempting to add actor of class 'MyCamera' to level at -1270.00,650.00,700.00
+[2020.10.29-15.49.31:893][563]LogEditor: Attempting to add actor of class 'MyCamera' to level at -780.00,-400.00,20.00
+[2020.10.29-15.49.41:121][608]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera4)
+[2020.10.29-15.49.58:350][506]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Basic/BasicSettings.BasicSettings
+[2020.10.29-15.49.58:626][506]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2020.10.29-15.49.59:987][506]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.29-15.50.40:203][934]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.29-15.51.43:680][255]BlueprintLog: New page: Compile BasicSettings
+[2020.10.29-15.51.43:790][255]LogUObjectHash: Compacting FUObjectHashTables data took   5.04ms
+[2020.10.29-15.51.43:889][255]LogSlate: Took 0.000667 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.29-15.51.49:494][737]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-15.51.49:512][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-15.51.49:512][737]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 9:51:49 PM)
+[2020.10.29-15.51.49:512][737]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-15.51.49:514][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002144s)
+[2020.10.29-15.51.49:515][737]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-15.51.49:515][737]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B421D9400), frame # 16737
+[2020.10.29-15.51.49:515][737]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B421A4B80), frame # 16737
+[2020.10.29-15.51.49:515][737]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2020.10.29-15.51.49:515][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.003242s)
+[2020.10.29-15.51.49:545][737]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.10.29-15.51.49:548][737]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-15.51.49:548][737]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-15.51.49:548][737]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-15.51.49:548][737]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-15.51.49:548][737]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-15.51.49:548][737]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-15.51.49:548][737]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-15.51.49:548][737]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-15.51.49:549][737]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-15.51.49:549][737]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-15.51.49:553][737]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-15.51.49:553][737]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-15.51.49:573][737]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-15.51.49:573][737]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-15.51.49:573][737]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-15.51.49:573][737]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-15.51.49:574][737]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-15.51.49:587][737]LogInit: FAudioDevice initialized.
+[2020.10.29-15.51.49:594][737]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-15.51.49:595][737]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-18.51.49
+[2020.10.29-15.51.49:595][737]LogWorld: Bringing up level for play took: 0.000637
+[2020.10.29-15.51.49:595][737]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.10.29-15.51.49:608][737]PIE: Server logged in
+[2020.10.29-15.51.49:609][737]PIE: Play in editor total start time 0.103 seconds.
+[2020.10.29-15.51.52:466][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.51.52:466][ 19]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-15.51.52:466][ 19]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-15.51.52:466][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-15.51.52:471][ 19]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-15.51.52:475][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-15.51.52:517][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.51.52:518][ 19]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B421A4B80), frame # 17019
+[2020.10.29-15.51.52:518][ 19]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B421D9400), frame # 17019
+[2020.10.29-15.51.52:521][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.10.29-15.51.52:553][ 20]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.10.29-15.51.57:939][639]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera4)
+[2020.10.29-15.52.00:160][839]LogEditorViewport: Clicking Background
+[2020.10.29-15.52.01:305][946]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-15.52.01:316][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-15.52.01:316][946]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 9:52:01 PM)
+[2020.10.29-15.52.01:316][946]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-15.52.01:318][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001415s)
+[2020.10.29-15.52.01:319][946]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-15.52.01:319][946]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B41FA7000), frame # 17946
+[2020.10.29-15.52.01:319][946]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B16C43C40), frame # 17946
+[2020.10.29-15.52.01:319][946]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2020.10.29-15.52.01:319][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.002539s)
+[2020.10.29-15.52.01:345][946]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2020.10.29-15.52.01:349][946]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-15.52.01:349][946]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-15.52.01:349][946]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-15.52.01:349][946]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-15.52.01:349][946]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-15.52.01:349][946]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-15.52.01:349][946]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-15.52.01:349][946]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-15.52.01:350][946]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-15.52.01:350][946]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-15.52.01:353][946]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-15.52.01:353][946]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-15.52.01:369][946]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-15.52.01:369][946]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-15.52.01:369][946]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-15.52.01:369][946]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-15.52.01:370][946]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-15.52.01:382][946]LogInit: FAudioDevice initialized.
+[2020.10.29-15.52.01:391][946]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-15.52.01:393][946]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-18.52.01
+[2020.10.29-15.52.01:393][946]LogWorld: Bringing up level for play took: 0.000646
+[2020.10.29-15.52.01:393][946]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.10.29-15.52.01:405][946]PIE: Server logged in
+[2020.10.29-15.52.01:406][946]PIE: Play in editor total start time 0.091 seconds.
+[2020.10.29-15.52.19:045][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.52.19:045][987]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-15.52.19:045][987]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-15.52.19:046][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-15.52.19:051][987]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-15.52.19:056][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-15.52.19:099][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.52.19:100][987]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B16C43C40), frame # 19987
+[2020.10.29-15.52.19:100][987]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B41FA7000), frame # 19987
+[2020.10.29-15.52.19:103][987]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.10.29-15.52.19:136][988]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.10.29-15.52.21:780][273]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera4)
+[2020.10.29-15.52.33:800][175]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  On Text Changed (BasicSettingsCameraButtonPosCoordX)  and was replaced as a Custom Event!
+[2020.10.29-15.53.01:921][943]BlueprintLog: New page: Compile BasicSettings
+[2020.10.29-15.53.01:977][943]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2020.10.29-15.53.03:260][  9]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-15.53.03:273][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-15.53.03:273][  9]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 9:53:03 PM)
+[2020.10.29-15.53.03:273][  9]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-15.53.03:275][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001474s)
+[2020.10.29-15.53.03:275][  9]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-15.53.03:275][  9]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B41E60800), frame # 23009
+[2020.10.29-15.53.03:275][  9]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B8DD2B4C0), frame # 23009
+[2020.10.29-15.53.03:276][  9]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2020.10.29-15.53.03:276][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.002555s)
+[2020.10.29-15.53.03:308][  9]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2020.10.29-15.53.03:309][  9]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-15.53.03:309][  9]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-15.53.03:309][  9]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-15.53.03:309][  9]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-15.53.03:309][  9]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-15.53.03:309][  9]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-15.53.03:309][  9]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-15.53.03:309][  9]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-15.53.03:310][  9]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-15.53.03:310][  9]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-15.53.03:313][  9]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-15.53.03:313][  9]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-15.53.03:334][  9]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-15.53.03:334][  9]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-15.53.03:334][  9]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-15.53.03:334][  9]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-15.53.03:335][  9]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-15.53.03:346][  9]LogInit: FAudioDevice initialized.
+[2020.10.29-15.53.03:356][  9]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-15.53.03:357][  9]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-18.53.03
+[2020.10.29-15.53.03:357][  9]LogWorld: Bringing up level for play took: 0.000552
+[2020.10.29-15.53.03:358][  9]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.10.29-15.53.03:369][  9]PIE: Server logged in
+[2020.10.29-15.53.03:370][  9]PIE: Play in editor total start time 0.097 seconds.
+[2020.10.29-15.53.06:916][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.53.06:916][160]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-15.53.06:916][160]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-15.53.06:916][160]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-15.53.06:924][160]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-15.53.06:928][160]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-15.53.06:973][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.53.06:974][160]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B8DD2B4C0), frame # 23160
+[2020.10.29-15.53.06:974][160]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B41E60800), frame # 23160
+[2020.10.29-15.53.06:977][160]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.10.29-15.53.07:025][161]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.10.29-15.53.07:600][205]LogEditorViewport: Clicking Background
+[2020.10.29-15.53.12:020][553]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-15.53.12:032][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-15.53.12:032][553]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 9:53:12 PM)
+[2020.10.29-15.53.12:032][553]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-15.53.12:034][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001885s)
+[2020.10.29-15.53.12:035][553]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-15.53.12:035][553]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B91D3D200), frame # 23553
+[2020.10.29-15.53.12:035][553]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B8DD051C0), frame # 23553
+[2020.10.29-15.53.12:035][553]LogPlayLevel: PIE: World Init took: (0.001106s)
+[2020.10.29-15.53.12:035][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.003103s)
+[2020.10.29-15.53.12:064][553]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.10.29-15.53.12:067][553]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-15.53.12:067][553]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-15.53.12:067][553]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-15.53.12:067][553]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-15.53.12:067][553]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-15.53.12:067][553]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-15.53.12:067][553]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-15.53.12:067][553]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-15.53.12:067][553]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-15.53.12:067][553]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-15.53.12:071][553]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-15.53.12:071][553]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-15.53.12:093][553]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-15.53.12:093][553]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-15.53.12:093][553]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-15.53.12:093][553]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-15.53.12:093][553]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-15.53.12:107][553]LogInit: FAudioDevice initialized.
+[2020.10.29-15.53.12:119][553]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-15.53.12:120][553]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-18.53.12
+[2020.10.29-15.53.12:120][553]LogWorld: Bringing up level for play took: 0.000726
+[2020.10.29-15.53.12:120][553]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.10.29-15.53.12:132][553]PIE: Server logged in
+[2020.10.29-15.53.12:133][553]PIE: Play in editor total start time 0.103 seconds.
+[2020.10.29-15.53.19:785][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.53.19:785][126]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-15.53.19:785][126]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-15.53.19:785][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-15.53.19:796][126]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-15.53.19:800][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-15.53.19:844][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.53.19:845][126]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B8DD051C0), frame # 24126
+[2020.10.29-15.53.19:845][126]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B91D3D200), frame # 24126
+[2020.10.29-15.53.19:848][126]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.10.29-15.53.19:895][127]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.10.29-15.53.24:030][450]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera4)
+[2020.10.29-15.54.24:436][  5]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.29-15.54.24:436][  5]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.29-15.54.24:522][  5]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2020.10.29-15.54.26:223][ 85]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera4)
+[2020.10.29-15.55.25:963][455]LogHotReload: New module detected: UE4Editor-app-0054.dll
+[2020.10.29-15.55.26:661][458]LogHotReload: Starting Hot-Reload from IDE
+[2020.10.29-15.55.26:708][458]LogClass: Could not find existing class MyCamera in package /Script/app for HotReload, assuming new class
+[2020.10.29-15.55.26:708][458]LogClass: Function SetArmLenght is new.
+[2020.10.29-15.55.26:708][458]LogClass: Function SetCameraPitch is new.
+[2020.10.29-15.55.26:708][458]LogClass: Function SetCameraYaw is new.
+[2020.10.29-15.55.26:708][458]LogClass: Function SetMeshVectorX is new.
+[2020.10.29-15.55.26:708][458]LogClass: Function SetMeshVectorY is new.
+[2020.10.29-15.55.26:708][458]LogClass: Function SetMeshVectorZ is new.
+[2020.10.29-15.55.26:721][458]LogHotReload: Re-instancing MyCamera after hot-reload.
+[2020.10.29-15.55.26:811][458]LogContentBrowser: Native class hierarchy updated for 'app' in 0.0005 seconds. Added 3 classes and 2 folders.
+[2020.10.29-15.55.26:815][458]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.10.29-15.55.26:907][458]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 3430 classes and 823 folders.
+[2020.10.29-15.55.26:911][458]Display: HotReload took  0.2s.
+[2020.10.29-15.55.28:483][462]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2020.10.29-15.55.29:854][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.29-15.55.30:389][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.29-15.55.32:228][667]Cmd: DELETE
+[2020.10.29-15.55.32:228][667]Cmd: ACTOR DELETE
+[2020.10.29-15.55.32:231][667]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.10.29-15.55.32:316][667]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2020.10.29-15.55.32:320][667]LogEditorActor: Deleted 1 Actors (0.092 secs)
+[2020.10.29-15.55.33:596][768]Cmd: TRANSACTION UNDO
+[2020.10.29-15.55.33:596][768]LogEditorTransaction: Undo Delete Actors
+[2020.10.29-15.55.34:491][802]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera4)
+[2020.10.29-15.55.35:298][851]Cmd: DELETE
+[2020.10.29-15.55.35:298][851]Cmd: ACTOR DELETE
+[2020.10.29-15.55.35:299][851]LogEditorActor: Deleted Actor: MyCamera
+[2020.10.29-15.55.35:361][851]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.10.29-15.55.35:363][851]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2020.10.29-15.55.41:783][266]LogEditor: Attempting to add actor of class 'MyCamera' to level at -1490.00,280.00,540.00
+[2020.10.29-15.55.42:229][288]LogEditor: Attempting to add actor of class 'MyCamera' to level at -520.00,-250.00,20.00
+[2020.10.29-15.56.58:030][508]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera3)
+[2020.10.29-15.57.10:344][297]Cmd: DELETE
+[2020.10.29-15.57.10:344][297]Cmd: ACTOR DELETE
+[2020.10.29-15.57.10:346][297]LogEditorActor: Deleted Actor: MyCamera
+[2020.10.29-15.57.10:386][297]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.10.29-15.57.10:389][297]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2020.10.29-15.57.10:894][328]LogEditor: Attempting to add actor of class 'MyCamera' to level at -1700.00,-150.00,710.00
+[2020.10.29-15.57.11:033][333]LogEditor: Attempting to add actor of class 'MyCamera' to level at -540.00,-160.00,20.00
+[2020.10.29-15.57.16:982][731]LogEditorViewport: Clicking on Actor (LMB): LightSource (LightSource3)
+[2020.10.29-15.57.24:705][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.29-15.57.26:066][320]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera6)
+[2020.10.29-15.57.37:128][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.29-15.57.37:698][ 83]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera6)
+[2020.10.29-15.57.41:511][325]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-15.57.41:528][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-15.57.41:528][325]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 9:57:41 PM)
+[2020.10.29-15.57.41:528][325]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-15.57.41:530][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001773s)
+[2020.10.29-15.57.41:531][325]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-15.57.41:531][325]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B87219C00), frame # 35325
+[2020.10.29-15.57.41:531][325]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B86B03240), frame # 35325
+[2020.10.29-15.57.41:531][325]LogPlayLevel: PIE: World Init took: (0.001301s)
+[2020.10.29-15.57.41:531][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.003207s)
+[2020.10.29-15.57.41:559][325]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.10.29-15.57.41:563][325]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-15.57.41:563][325]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-15.57.41:563][325]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-15.57.41:563][325]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-15.57.41:563][325]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-15.57.41:564][325]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-15.57.41:564][325]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-15.57.41:564][325]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-15.57.41:564][325]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-15.57.41:564][325]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-15.57.41:569][325]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-15.57.41:569][325]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-15.57.41:586][325]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-15.57.41:586][325]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-15.57.41:587][325]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-15.57.41:587][325]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-15.57.41:587][325]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-15.57.41:601][325]LogInit: FAudioDevice initialized.
+[2020.10.29-15.57.41:608][325]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-15.57.41:609][325]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-18.57.41
+[2020.10.29-15.57.41:609][325]LogWorld: Bringing up level for play took: 0.000581
+[2020.10.29-15.57.41:609][325]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.10.29-15.57.41:623][325]PIE: Server logged in
+[2020.10.29-15.57.41:625][325]PIE: Play in editor total start time 0.102 seconds.
+[2020.10.29-15.57.43:835][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.57.43:835][455]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-15.57.43:835][455]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-15.57.43:835][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-15.57.43:842][455]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-15.57.43:846][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-15.57.43:889][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-15.57.43:891][455]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B86B03240), frame # 35455
+[2020.10.29-15.57.43:891][455]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B87219C00), frame # 35455
+[2020.10.29-15.57.43:894][455]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.10.29-15.57.43:935][456]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.10.29-15.57.44:404][489]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2020.10.29-15.57.51:658][520]LogEditorViewport: Clicking Background
+[2020.10.29-15.57.52:317][555]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-15.57.52:331][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-15.57.52:331][555]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 9:57:52 PM)
+[2020.10.29-15.57.52:331][555]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-15.57.52:333][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001924s)
+[2020.10.29-15.57.52:334][555]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-15.57.52:334][555]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B84280E00), frame # 35555
+[2020.10.29-15.57.52:334][555]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B86B02700), frame # 35555
+[2020.10.29-15.57.52:334][555]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2020.10.29-15.57.52:334][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.003112s)
+[2020.10.29-15.57.52:369][555]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2020.10.29-15.57.52:371][555]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-15.57.52:371][555]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-15.57.52:371][555]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-15.57.52:371][555]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-15.57.52:371][555]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-15.57.52:371][555]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-15.57.52:371][555]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-15.57.52:371][555]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-15.57.52:371][555]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-15.57.52:371][555]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-15.57.52:377][555]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-15.57.52:377][555]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-15.57.52:396][555]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-15.57.52:396][555]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-15.57.52:396][555]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-15.57.52:396][555]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-15.57.52:397][555]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-15.57.52:412][555]LogInit: FAudioDevice initialized.
+[2020.10.29-15.57.52:419][555]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-15.57.52:420][555]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-18.57.52
+[2020.10.29-15.57.52:420][555]LogWorld: Bringing up level for play took: 0.000660
+[2020.10.29-15.57.52:421][555]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.10.29-15.57.52:437][555]PIE: Server logged in
+[2020.10.29-15.57.52:438][555]PIE: Play in editor total start time 0.108 seconds.
+[2020.10.29-16.05.39:634][ 64]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.05.39:634][ 64]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.05.39:635][ 64]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-16.05.39:635][ 64]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.05.39:642][ 64]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-16.05.39:647][ 64]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.05.39:695][ 64]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.05.39:696][ 64]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B86B02700), frame # 39064
+[2020.10.29-16.05.39:696][ 64]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B84280E00), frame # 39064
+[2020.10.29-16.05.39:699][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2020.10.29-16.05.39:738][ 65]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.10.29-16.05.41:320][179]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2020.10.29-16.05.41:953][218]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2020.10.29-16.05.42:814][281]Cmd: DELETE
+[2020.10.29-16.05.42:814][281]Cmd: ACTOR DELETE
+[2020.10.29-16.05.42:815][281]LogEditorActor: Deleted Actor: PointLight
+[2020.10.29-16.05.42:843][281]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.10.29-16.05.42:845][281]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2020.10.29-16.05.48:137][628]LogEditorViewport: Clicking on Actor (LMB): LightSource (LightSource3)
+[2020.10.29-16.05.48:237][634]LogEditorViewport: Clicking on Component (LMB): DirectionalLightComponent (myLight)
+[2020.10.29-16.05.52:072][889]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera6)
+[2020.10.29-16.05.57:434][238]LogEditorViewport: Clicking on Actor (LMB): LightSource (LightSource3)
+[2020.10.29-16.05.59:711][394]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera6)
+[2020.10.29-16.06.01:339][486]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-16.06.01:355][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-16.06.01:355][486]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 10:06:01 PM)
+[2020.10.29-16.06.01:355][486]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.06.01:357][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001627s)
+[2020.10.29-16.06.01:360][486]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-16.06.01:360][486]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B83E22200), frame # 40486
+[2020.10.29-16.06.01:360][486]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B85DA1E40), frame # 40486
+[2020.10.29-16.06.01:361][486]LogPlayLevel: PIE: World Init took: (0.003409s)
+[2020.10.29-16.06.01:361][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.005209s)
+[2020.10.29-16.06.01:390][486]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2020.10.29-16.06.01:393][486]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-16.06.01:393][486]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-16.06.01:393][486]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-16.06.01:393][486]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-16.06.01:393][486]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-16.06.01:393][486]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-16.06.01:393][486]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-16.06.01:393][486]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-16.06.01:394][486]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-16.06.01:394][486]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-16.06.01:398][486]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-16.06.01:398][486]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-16.06.01:416][486]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-16.06.01:417][486]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-16.06.01:417][486]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-16.06.01:417][486]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-16.06.01:418][486]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-16.06.01:432][486]LogInit: FAudioDevice initialized.
+[2020.10.29-16.06.01:439][486]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-16.06.01:440][486]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-19.06.01
+[2020.10.29-16.06.01:441][486]LogWorld: Bringing up level for play took: 0.000759
+[2020.10.29-16.06.01:441][486]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.10.29-16.06.01:456][486]PIE: Server logged in
+[2020.10.29-16.06.01:457][486]PIE: Play in editor total start time 0.106 seconds.
+[2020.10.29-16.06.03:815][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.06.03:815][628]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.06.03:815][628]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-16.06.03:815][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.06.03:826][628]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-16.06.03:830][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.06.03:872][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.06.03:873][628]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B85DA1E40), frame # 40628
+[2020.10.29-16.06.03:873][628]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B83E22200), frame # 40628
+[2020.10.29-16.06.03:876][628]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.10.29-16.06.03:920][629]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.10.29-16.06.06:965][867]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera6)
+[2020.10.29-16.06.08:273][937]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-16.06.08:285][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-16.06.08:285][937]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 10:06:08 PM)
+[2020.10.29-16.06.08:285][937]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.06.08:286][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001295s)
+[2020.10.29-16.06.08:287][937]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-16.06.08:287][937]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B5C04E200), frame # 40937
+[2020.10.29-16.06.08:287][937]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B85DA1800), frame # 40937
+[2020.10.29-16.06.08:287][937]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2020.10.29-16.06.08:287][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.002307s)
+[2020.10.29-16.06.08:314][937]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.10.29-16.06.08:316][937]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-16.06.08:316][937]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-16.06.08:316][937]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-16.06.08:316][937]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-16.06.08:316][937]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-16.06.08:316][937]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-16.06.08:316][937]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-16.06.08:316][937]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-16.06.08:316][937]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-16.06.08:316][937]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-16.06.08:320][937]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-16.06.08:320][937]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-16.06.08:336][937]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-16.06.08:337][937]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-16.06.08:337][937]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-16.06.08:337][937]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-16.06.08:337][937]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-16.06.08:350][937]LogInit: FAudioDevice initialized.
+[2020.10.29-16.06.08:361][937]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-16.06.08:362][937]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-19.06.08
+[2020.10.29-16.06.08:363][937]LogWorld: Bringing up level for play took: 0.000911
+[2020.10.29-16.06.08:363][937]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.10.29-16.06.08:376][937]PIE: Server logged in
+[2020.10.29-16.06.08:377][937]PIE: Play in editor total start time 0.093 seconds.
+[2020.10.29-16.06.10:295][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.06.10:295][ 55]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.06.10:295][ 55]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-16.06.10:295][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.06.10:306][ 55]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-16.06.10:310][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.06.10:334][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.06.10:353][ 55]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B85DA1800), frame # 41055
+[2020.10.29-16.06.10:353][ 55]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B5C04E200), frame # 41055
+[2020.10.29-16.06.10:355][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.10.29-16.06.10:398][ 56]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.10.29-16.06.13:440][304]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera6)
+[2020.10.29-16.06.15:876][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.29-16.06.17:032][500]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-16.06.17:044][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-16.06.17:044][500]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 10:06:17 PM)
+[2020.10.29-16.06.17:044][500]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.06.17:046][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001506s)
+[2020.10.29-16.06.17:047][500]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-16.06.17:047][500]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B848B9400), frame # 41500
+[2020.10.29-16.06.17:047][500]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B415EAC00), frame # 41500
+[2020.10.29-16.06.17:047][500]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2020.10.29-16.06.17:047][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.002751s)
+[2020.10.29-16.06.17:076][500]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.10.29-16.06.17:078][500]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-16.06.17:078][500]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-16.06.17:078][500]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-16.06.17:078][500]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-16.06.17:078][500]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-16.06.17:078][500]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-16.06.17:078][500]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-16.06.17:078][500]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-16.06.17:078][500]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-16.06.17:078][500]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-16.06.17:082][500]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-16.06.17:082][500]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-16.06.17:098][500]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-16.06.17:099][500]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-16.06.17:099][500]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-16.06.17:099][500]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-16.06.17:099][500]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-16.06.17:111][500]LogInit: FAudioDevice initialized.
+[2020.10.29-16.06.17:120][500]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-16.06.17:121][500]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-19.06.17
+[2020.10.29-16.06.17:122][500]LogWorld: Bringing up level for play took: 0.000659
+[2020.10.29-16.06.17:122][500]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.10.29-16.06.17:133][500]PIE: Server logged in
+[2020.10.29-16.06.17:135][500]PIE: Play in editor total start time 0.091 seconds.
+[2020.10.29-16.13.51:065][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.13.51:065][979]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.13.51:065][979]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-16.13.51:065][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.13.51:071][979]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-16.13.51:076][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.13.51:122][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.13.51:123][979]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B415EAC00), frame # 44979
+[2020.10.29-16.13.51:123][979]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B848B9400), frame # 44979
+[2020.10.29-16.13.51:127][979]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.10.29-16.13.51:168][980]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.10.29-16.13.52:640][ 95]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  On Text Changed (BasicSettingsCameraButtonPosCoordZ)  and was replaced as a Custom Event!
+[2020.10.29-16.14.12:990][677]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.29-16.14.12:990][677]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.29-16.14.53:944][678]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.29-16.14.53:944][678]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.29-16.14.59:027][ 81]BlueprintLog: New page: Compile BasicSettings
+[2020.10.29-16.14.59:088][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2020.10.29-16.15.03:846][592]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera6)
+[2020.10.29-16.15.09:879][195]LogUObjectHash: Compacting FUObjectHashTables data took   5.52ms
+[2020.10.29-16.15.09:905][195]LogSavePackage: Moving 'C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/StantardScene_Auto187B6E9024C2689D8F2090CA45FFA4796.tmp' to 'C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Autosaves/Game/Maps/StantardScene_Auto1.umap'
+[2020.10.29-16.15.09:906][195]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/StantardScene' took 0.064
+[2020.10.29-16.15.09:906][195]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.064
+[2020.10.29-16.15.09:906][195]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Basic/BasicSettings] ([1] browsable assets)...
+[2020.10.29-16.15.09:906][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/Basic/BasicSettings]
+[2020.10.29-16.15.09:947][195]LogSavePackage: Moving 'C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/BasicSettings_Auto10FCD320749129C1D7CB8059AF7A862C7.tmp' to 'C:/Users/Yoseb/Desktop/mse_generating_datasets_for_photogrammetry/proj_v4/Saved/Autosaves/Game/Basic/BasicSettings_Auto1.uasset'
+[2020.10.29-16.15.09:948][195]LogFileHelpers: Auto-saving content packages took 0.042
+[2020.10.29-16.20.27:070][901]LogEditorViewport: Clicking Background
+[2020.10.29-16.20.29:438][142]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera6)
+[2020.10.29-16.20.32:384][420]LogActorFactory: Actor Factory created Sphere
+[2020.10.29-16.20.33:221][497]LogActorFactory: Actor Factory created Sphere
+[2020.10.29-16.20.38:195][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.10.29-16.20.39:491][ 64]LogEditorViewport: Clicking on Actor (LMB): MyCamera (MyCamera6)
+[2020.10.29-16.20.41:805][300]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-16.20.41:820][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-16.20.41:820][300]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 10:20:41 PM)
+[2020.10.29-16.20.41:820][300]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.20.41:823][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003377s)
+[2020.10.29-16.20.41:827][300]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-16.20.41:827][300]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B8F1B5000), frame # 59300
+[2020.10.29-16.20.41:827][300]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B85084E00), frame # 59300
+[2020.10.29-16.20.41:827][300]LogPlayLevel: PIE: World Init took: (0.003679s)
+[2020.10.29-16.20.41:827][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.007191s)
+[2020.10.29-16.20.41:856][300]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.10.29-16.20.41:860][300]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-16.20.41:860][300]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-16.20.41:860][300]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-16.20.41:860][300]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-16.20.41:860][300]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-16.20.41:860][300]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-16.20.41:860][300]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-16.20.41:860][300]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-16.20.41:861][300]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-16.20.41:861][300]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-16.20.41:865][300]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-16.20.41:865][300]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-16.20.41:884][300]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-16.20.41:885][300]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-16.20.41:885][300]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-16.20.41:885][300]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-16.20.41:885][300]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-16.20.41:897][300]LogInit: FAudioDevice initialized.
+[2020.10.29-16.20.41:905][300]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-16.20.41:907][300]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-19.20.41
+[2020.10.29-16.20.41:907][300]LogWorld: Bringing up level for play took: 0.000839
+[2020.10.29-16.20.41:907][300]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.10.29-16.20.41:920][300]PIE: Server logged in
+[2020.10.29-16.20.41:921][300]PIE: Play in editor total start time 0.105 seconds.
+[2020.10.29-16.20.44:184][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.20.44:184][521]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.20.44:184][521]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-16.20.44:184][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.20.44:189][521]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-16.20.44:193][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.20.44:235][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.20.44:236][521]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B85084E00), frame # 59521
+[2020.10.29-16.20.44:236][521]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B8F1B5000), frame # 59521
+[2020.10.29-16.20.44:239][521]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.10.29-16.20.44:273][522]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.10.29-16.20.47:712][903]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-16.20.47:724][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-16.20.47:724][903]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 10:20:47 PM)
+[2020.10.29-16.20.47:724][903]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.20.47:726][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001534s)
+[2020.10.29-16.20.47:727][903]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-16.20.47:727][903]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B5FD9CE00), frame # 59903
+[2020.10.29-16.20.47:727][903]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B41BCBC40), frame # 59903
+[2020.10.29-16.20.47:727][903]LogPlayLevel: PIE: World Init took: (0.001511s)
+[2020.10.29-16.20.47:727][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.003169s)
+[2020.10.29-16.20.47:757][903]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.10.29-16.20.47:759][903]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-16.20.47:760][903]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-16.20.47:760][903]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-16.20.47:760][903]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-16.20.47:760][903]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-16.20.47:760][903]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-16.20.47:760][903]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-16.20.47:760][903]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-16.20.47:760][903]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-16.20.47:760][903]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-16.20.47:764][903]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-16.20.47:764][903]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-16.20.47:780][903]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-16.20.47:780][903]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-16.20.47:780][903]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-16.20.47:780][903]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-16.20.47:781][903]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-16.20.47:793][903]LogInit: FAudioDevice initialized.
+[2020.10.29-16.20.47:804][903]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-16.20.47:805][903]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-19.20.47
+[2020.10.29-16.20.47:805][903]LogWorld: Bringing up level for play took: 0.000639
+[2020.10.29-16.20.47:805][903]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.10.29-16.20.47:817][903]PIE: Server logged in
+[2020.10.29-16.20.47:818][903]PIE: Play in editor total start time 0.095 seconds.
+[2020.10.29-16.21.45:523][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.21.45:523][680]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.21.45:524][680]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-16.21.45:524][680]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.21.45:530][680]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-16.21.45:534][680]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.21.45:577][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.21.45:578][680]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B41BCBC40), frame # 63680
+[2020.10.29-16.21.45:578][680]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B5FD9CE00), frame # 63680
+[2020.10.29-16.21.45:582][680]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.10.29-16.21.45:611][681]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.10.29-16.21.46:222][751]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-16.21.46:233][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-16.21.46:233][751]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 10:21:46 PM)
+[2020.10.29-16.21.46:233][751]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.21.46:235][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002022s)
+[2020.10.29-16.21.46:236][751]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-16.21.46:236][751]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B5F330600), frame # 63751
+[2020.10.29-16.21.46:236][751]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B8503AC00), frame # 63751
+[2020.10.29-16.21.46:237][751]LogPlayLevel: PIE: World Init took: (0.001410s)
+[2020.10.29-16.21.46:237][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.003614s)
+[2020.10.29-16.21.46:263][751]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.10.29-16.21.46:264][751]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-16.21.46:264][751]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-16.21.46:264][751]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-16.21.46:264][751]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-16.21.46:264][751]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-16.21.46:264][751]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-16.21.46:264][751]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-16.21.46:264][751]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-16.21.46:264][751]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-16.21.46:264][751]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-16.21.46:268][751]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-16.21.46:268][751]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-16.21.46:285][751]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-16.21.46:285][751]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-16.21.46:285][751]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-16.21.46:285][751]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-16.21.46:285][751]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-16.21.46:298][751]LogInit: FAudioDevice initialized.
+[2020.10.29-16.21.46:308][751]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-16.21.46:309][751]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-19.21.46
+[2020.10.29-16.21.46:309][751]LogWorld: Bringing up level for play took: 0.000629
+[2020.10.29-16.21.46:309][751]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.10.29-16.21.46:320][751]PIE: Server logged in
+[2020.10.29-16.21.46:320][751]PIE: Play in editor total start time 0.089 seconds.
+[2020.10.29-16.26.08:873][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.26.08:873][ 31]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.26.08:873][ 31]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-16.26.08:873][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.26.08:880][ 31]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-16.26.08:885][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.26.08:926][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.26.08:927][ 31]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B8503AC00), frame # 68031
+[2020.10.29-16.26.08:927][ 31]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B5F330600), frame # 68031
+[2020.10.29-16.26.08:930][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.10.29-16.26.08:955][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.10.29-16.26.10:489][197]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-16.26.10:508][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-16.26.10:508][197]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 10:26:10 PM)
+[2020.10.29-16.26.10:508][197]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.26.10:510][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001866s)
+[2020.10.29-16.26.10:511][197]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-16.26.10:511][197]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B5F289A00), frame # 68197
+[2020.10.29-16.26.10:511][197]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B541A20C0), frame # 68197
+[2020.10.29-16.26.10:511][197]LogPlayLevel: PIE: World Init took: (0.001477s)
+[2020.10.29-16.26.10:511][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.003533s)
+[2020.10.29-16.26.10:538][197]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.10.29-16.26.10:540][197]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-16.26.10:540][197]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-16.26.10:540][197]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-16.26.10:540][197]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-16.26.10:540][197]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-16.26.10:540][197]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-16.26.10:540][197]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-16.26.10:540][197]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-16.26.10:541][197]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-16.26.10:541][197]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-16.26.10:544][197]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-16.26.10:544][197]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-16.26.10:561][197]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-16.26.10:561][197]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-16.26.10:561][197]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-16.26.10:561][197]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-16.26.10:562][197]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-16.26.10:573][197]LogInit: FAudioDevice initialized.
+[2020.10.29-16.26.10:583][197]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-16.26.10:584][197]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-19.26.10
+[2020.10.29-16.26.10:585][197]LogWorld: Bringing up level for play took: 0.000663
+[2020.10.29-16.26.10:585][197]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.10.29-16.26.10:596][197]PIE: Server logged in
+[2020.10.29-16.26.10:597][197]PIE: Play in editor total start time 0.09 seconds.
+[2020.10.29-16.27.35:351][694]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.29-16.27.35:351][694]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.29-16.27.53:852][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.27.53:852][785]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.27.53:852][785]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-16.27.53:853][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.27.53:858][785]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-16.27.53:863][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.27.53:907][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.27.53:907][785]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B541A20C0), frame # 72785
+[2020.10.29-16.27.53:908][785]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B5F289A00), frame # 72785
+[2020.10.29-16.27.53:911][785]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.10.29-16.27.53:950][786]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.10.29-16.27.56:477][ 66]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-16.27.56:491][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-16.27.56:491][ 66]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 10:27:56 PM)
+[2020.10.29-16.27.56:491][ 66]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.27.56:493][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001665s)
+[2020.10.29-16.27.56:494][ 66]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-16.27.56:494][ 66]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B5FD9C200), frame # 73066
+[2020.10.29-16.27.56:494][ 66]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B8503A980), frame # 73066
+[2020.10.29-16.27.56:494][ 66]LogPlayLevel: PIE: World Init took: (0.001392s)
+[2020.10.29-16.27.56:494][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.003210s)
+[2020.10.29-16.27.56:527][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   6.73ms
+[2020.10.29-16.27.56:529][ 66]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-16.27.56:529][ 66]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-16.27.56:529][ 66]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-16.27.56:529][ 66]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-16.27.56:529][ 66]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-16.27.56:529][ 66]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-16.27.56:529][ 66]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-16.27.56:529][ 66]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-16.27.56:530][ 66]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-16.27.56:530][ 66]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-16.27.56:534][ 66]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-16.27.56:534][ 66]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-16.27.56:553][ 66]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-16.27.56:553][ 66]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-16.27.56:554][ 66]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-16.27.56:554][ 66]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-16.27.56:554][ 66]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-16.27.56:567][ 66]LogInit: FAudioDevice initialized.
+[2020.10.29-16.27.56:573][ 66]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-16.27.56:574][ 66]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-19.27.56
+[2020.10.29-16.27.56:574][ 66]LogWorld: Bringing up level for play took: 0.000625
+[2020.10.29-16.27.56:574][ 66]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.10.29-16.27.56:586][ 66]PIE: Server logged in
+[2020.10.29-16.27.56:587][ 66]PIE: Play in editor total start time 0.097 seconds.
+[2020.10.29-16.28.18:753][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.28.18:753][686]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.28.18:753][686]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-16.28.18:753][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.28.18:761][686]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-16.28.18:765][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.28.18:806][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.28.18:807][686]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B8503A980), frame # 75686
+[2020.10.29-16.28.18:807][686]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B5FD9C200), frame # 75686
+[2020.10.29-16.28.18:810][686]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.10.29-16.28.18:839][687]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.10.29-16.28.22:136][ 67]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.29-16.28.22:148][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.29-16.28.22:148][ 67]PIE: New page: PIE session: StantardScene (Oct 29, 2020, 10:28:22 PM)
+[2020.10.29-16.28.22:148][ 67]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.28.22:150][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001820s)
+[2020.10.29-16.28.22:154][ 67]LogAIModule: Creating AISystem for world StantardScene
+[2020.10.29-16.28.22:154][ 67]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B83C40C00), frame # 76067
+[2020.10.29-16.28.22:154][ 67]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B85955440), frame # 76067
+[2020.10.29-16.28.22:154][ 67]LogPlayLevel: PIE: World Init took: (0.003745s)
+[2020.10.29-16.28.22:154][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StantardScene.StantardScene to /Game/Maps/UEDPIE_0_StantardScene.StantardScene (0.005705s)
+[2020.10.29-16.28.22:182][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.10.29-16.28.22:184][ 67]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.29-16.28.22:184][ 67]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.29-16.28.22:184][ 67]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.29-16.28.22:184][ 67]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.29-16.28.22:184][ 67]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.29-16.28.22:184][ 67]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.29-16.28.22:184][ 67]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.29-16.28.22:184][ 67]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.29-16.28.22:184][ 67]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.29-16.28.22:184][ 67]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.29-16.28.22:188][ 67]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.29-16.28.22:188][ 67]LogAudioMixer: Display: 1: FrontRight
+[2020.10.29-16.28.22:205][ 67]LogAudioMixer: Display: Using Audio Device Динамики (High Definition Audio Device)
+[2020.10.29-16.28.22:205][ 67]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.29-16.28.22:205][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.29-16.28.22:205][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.29-16.28.22:206][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.29-16.28.22:218][ 67]LogInit: FAudioDevice initialized.
+[2020.10.29-16.28.22:232][ 67]LogLoad: Game class is 'BP_GameManager_C'
+[2020.10.29-16.28.22:233][ 67]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StantardScene.StantardScene up for play (max tick rate 0) at 2020.10.29-19.28.22
+[2020.10.29-16.28.22:234][ 67]LogWorld: Bringing up level for play took: 0.000636
+[2020.10.29-16.28.22:234][ 67]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.10.29-16.28.22:248][ 67]PIE: Server logged in
+[2020.10.29-16.28.22:249][ 67]PIE: Play in editor total start time 0.101 seconds.
+[2020.10.29-16.29.46:083][ 87]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.29-16.29.46:083][ 87]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.29-16.35.01:511][273]LogHotReload: New module detected: UE4Editor-app-0057.dll
+[2020.10.29-16.35.15:852][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.35.15:853][574]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StantardScene
+[2020.10.29-16.35.15:853][574]LogWorld: UWorld::CleanupWorld for StantardScene, bSessionEnded=true, bCleanupResources=true
+[2020.10.29-16.35.15:853][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.35.15:858][574]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.29-16.35.15:863][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.29-16.35.15:907][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.29-16.35.15:908][574]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B85955440), frame # 93574
+[2020.10.29-16.35.15:908][574]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B83C40C00), frame # 93574
+[2020.10.29-16.35.15:911][574]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.10.29-16.35.15:953][575]LogHotReload: Starting Hot-Reload from IDE
+[2020.10.29-16.35.15:996][575]LogClass: Could not find existing class MyCamera in package /Script/app for HotReload, assuming new class
+[2020.10.29-16.35.15:996][575]LogClass: Function SetArmLenght is new.
+[2020.10.29-16.35.15:996][575]LogClass: Function SetCameraPitch is new.
+[2020.10.29-16.35.15:996][575]LogClass: Function SetCameraYaw is new.
+[2020.10.29-16.35.15:996][575]LogClass: Function SetMeshVectorX is new.
+[2020.10.29-16.35.15:996][575]LogClass: Function SetMeshVectorY is new.
+[2020.10.29-16.35.15:996][575]LogClass: Function SetMeshVectorZ is new.
+[2020.10.29-16.35.15:997][575]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.10.29-16.35.16:403][575]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.407 s
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: === Handled ensure: ===
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: 
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: Ensure condition failed: InParent == nullptr || !InParent->IsAttachedTo(this) [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Engine/Private/Components/SceneComponent.cpp] [Line: 1740]
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: Setting up attachment would create a cycle.
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: Stack: 
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ffee35a9df9 UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ffee215c4f5 UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ffee215c325 UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007fff38613042 UE4Editor-app-0057.dll!AMyCamera::AMyCamera() [C:\Users\Yoseb\Desktop\mse_generating_datasets_for_photogrammetry\proj_v4\Source\app\MyCamera.cpp:23]
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ffee136c223 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ffee1618481 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ffee15f5bef UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ffee15143d5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ffee4c5987a UE4Editor-Core.dll!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ffee4c79a00 UE4Editor-Core.dll!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ffee4c78b18 UE4Editor-Core.dll!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ffecc26b9b2 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ffecc26b708 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ffecc27c3e1 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ffee49dd0a9 UE4Editor-Core.dll!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ff7b4c8a213 UE4Editor.exe!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ff7b4c9ba7c UE4Editor.exe!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ff7b4c9bb5a UE4Editor.exe!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ff7b4cae31d UE4Editor.exe!UnknownFunction []
+[2020.10.29-16.35.16:403][575]LogOutputDevice: Error: [Callstack] 0x00007ff7b4cb145a UE4Editor.exe!UnknownFunction []
+[2020.10.29-16.35.16:404][575]LogOutputDevice: Error: [Callstack] 0x00007fff4a457c24 KERNEL32.DLL!UnknownFunction []
+[2020.10.29-16.35.16:404][575]LogOutputDevice: Error: [Callstack] 0x00007fff4b0ccea1 ntdll.dll!UnknownFunction []
+[2020.10.29-16.35.16:404][575]LogOutputDevice: Error: 
