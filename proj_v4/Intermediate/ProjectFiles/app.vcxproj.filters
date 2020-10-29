@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\app.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{15BCBF68-FEB6-434B-B1AE-9C596D421AE7}</UniqueIdentifier>
+      <UniqueIdentifier>{44C0D20E-2ABB-4CE3-A556-FB2B69D23A1D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\app.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5BE37D58-9724-47FB-90CB-09354E676B43}</UniqueIdentifier>
+      <UniqueIdentifier>{DD2A1688-56F7-428C-93BF-185394DADD32}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\app">
-      <UniqueIdentifier>{42FF23D5-A075-4017-8D03-708A159D6FFB}</UniqueIdentifier>
+      <UniqueIdentifier>{C9CB344B-DEB1-472E-BBEF-4447600978A5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\app\app.Build.cs">
       <Filter>Source\app</Filter>
@@ -45,6 +45,12 @@
       <Filter>Source\app</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\app\MyActor.h">
+      <Filter>Source\app</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\app\MyCamera.cpp">
+      <Filter>Source\app</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\app\MyCamera.h">
       <Filter>Source\app</Filter>
     </ClInclude>
   </ItemGroup>
