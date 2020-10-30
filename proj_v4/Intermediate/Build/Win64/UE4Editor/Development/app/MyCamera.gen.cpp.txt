@@ -1,9 +1,0 @@
-C:\Users\Yoseb\Desktop\mse_generating_datasets_for_photogrammetry\proj_v4\Intermediate\Build\Win64\UE4Editor\Development\app\Definitions.app.h
-D:\UE4\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\UE4\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Yoseb\Desktop\mse_generating_datasets_for_photogrammetry\proj_v4\Source\app/MyCamera.h
-D:\UE4\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
-D:\UE4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
-D:\UE4\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
-D:\UE4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
-C:\Users\Yoseb\Desktop\mse_generating_datasets_for_photogrammetry\proj_v4\Intermediate\Build\Win64\UE4Editor\Inc\app\MyCamera.generated.h
