@@ -14,8 +14,38 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define APP_LightSource_generated_h
 
 #define proj_v4_Source_app_LightSource_h_17_SPARSE_DATA
-#define proj_v4_Source_app_LightSource_h_17_RPC_WRAPPERS
-#define proj_v4_Source_app_LightSource_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define proj_v4_Source_app_LightSource_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execchangeAngle_z); \
+	DECLARE_FUNCTION(execchangeAngle_y); \
+	DECLARE_FUNCTION(execchangeAngle_x); \
+	DECLARE_FUNCTION(execchangeColor); \
+	DECLARE_FUNCTION(execgetZ); \
+	DECLARE_FUNCTION(execchangeIntensity); \
+	DECLARE_FUNCTION(execsetCoord_z); \
+	DECLARE_FUNCTION(execsetCoord_y); \
+	DECLARE_FUNCTION(execsetCoord_x); \
+	DECLARE_FUNCTION(execquickChange_height); \
+	DECLARE_FUNCTION(execquickChange_distance); \
+	DECLARE_FUNCTION(execquickChange_rotation);
+
+
+#define proj_v4_Source_app_LightSource_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execchangeAngle_z); \
+	DECLARE_FUNCTION(execchangeAngle_y); \
+	DECLARE_FUNCTION(execchangeAngle_x); \
+	DECLARE_FUNCTION(execchangeColor); \
+	DECLARE_FUNCTION(execgetZ); \
+	DECLARE_FUNCTION(execchangeIntensity); \
+	DECLARE_FUNCTION(execsetCoord_z); \
+	DECLARE_FUNCTION(execsetCoord_y); \
+	DECLARE_FUNCTION(execsetCoord_x); \
+	DECLARE_FUNCTION(execquickChange_height); \
+	DECLARE_FUNCTION(execquickChange_distance); \
+	DECLARE_FUNCTION(execquickChange_rotation);
+
+
 #define proj_v4_Source_app_LightSource_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesALightSource(); \

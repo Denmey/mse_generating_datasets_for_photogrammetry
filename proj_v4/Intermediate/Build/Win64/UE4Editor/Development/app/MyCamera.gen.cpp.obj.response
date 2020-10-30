@@ -230,8 +230,8 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\Yoseb\Desktop\mse_generating_datasets_for_photogrammetry\proj_v4\Intermediate\Build\Win64\UE4Editor\Inc\app
-/I C:\Users\Yoseb\Desktop\mse_generating_datasets_for_photogrammetry\proj_v4\Source
+/I C:\Users\marin\Desktop\DataMaker\AAA\proj_v4\Intermediate\Build\Win64\UE4Editor\Inc\app
+/I C:\Users\marin\Desktop\DataMaker\AAA\proj_v4\Source
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -261,12 +261,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\Yoseb\Desktop\mse_generating_datasets_for_photogrammetry\proj_v4\Intermediate\Build\Win64\appEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\Yoseb\Desktop\mse_generating_datasets_for_photogrammetry\proj_v4\Intermediate\Build\Win64\appEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\Yoseb\Desktop\mse_generating_datasets_for_photogrammetry\proj_v4\Intermediate\Build\Win64\appEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\Yoseb\Desktop\mse_generating_datasets_for_photogrammetry\proj_v4\Intermediate\Build\Win64\UE4Editor\Inc\app\MyCamera.gen.cpp"
-/FI"C:\Users\Yoseb\Desktop\mse_generating_datasets_for_photogrammetry\proj_v4\Intermediate\Build\Win64\UE4Editor\Development\app\Definitions.app.h"
-/Fo"C:\Users\Yoseb\Desktop\mse_generating_datasets_for_photogrammetry\proj_v4\Intermediate\Build\Win64\UE4Editor\Development\app\MyCamera.gen.cpp.obj"
+/FI"C:\Users\marin\Desktop\DataMaker\AAA\proj_v4\Intermediate\Build\Win64\appEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\marin\Desktop\DataMaker\AAA\proj_v4\Intermediate\Build\Win64\appEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\marin\Desktop\DataMaker\AAA\proj_v4\Intermediate\Build\Win64\appEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\marin\Desktop\DataMaker\AAA\proj_v4\Intermediate\Build\Win64\UE4Editor\Inc\app\MyCamera.gen.cpp"
+/FI"C:\Users\marin\Desktop\DataMaker\AAA\proj_v4\Intermediate\Build\Win64\UE4Editor\Development\app\Definitions.app.h"
+/Fo"C:\Users\marin\Desktop\DataMaker\AAA\proj_v4\Intermediate\Build\Win64\UE4Editor\Development\app\MyCamera.gen.cpp.obj"
 /TP
 /GR-
 /W4

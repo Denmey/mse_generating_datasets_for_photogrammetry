@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "app",
-			"Path": "C:\\Users\\Yoseb\\Desktop\\mse_generating_datasets_for_photogrammetry\\proj_v4\\Source\\app.Target.cs",
+			"Path": "C:\\Users\\marin\\Desktop\\DataMaker\\AAA\\proj_v4\\Source\\app.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "appEditor",
-			"Path": "C:\\Users\\Yoseb\\Desktop\\mse_generating_datasets_for_photogrammetry\\proj_v4\\Source\\appEditor.Target.cs",
+			"Path": "C:\\Users\\marin\\Desktop\\DataMaker\\AAA\\proj_v4\\Source\\appEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
