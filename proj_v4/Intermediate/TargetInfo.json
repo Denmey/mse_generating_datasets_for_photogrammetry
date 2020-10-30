@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "app",
+			"Path": "C:\\Users\\marin\\Desktop\\DataMaker\\AAA\\proj_v4\\Source\\app.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "appEditor",
+			"Path": "C:\\Users\\marin\\Desktop\\DataMaker\\AAA\\proj_v4\\Source\\appEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
