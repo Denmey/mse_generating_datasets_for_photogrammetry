@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\marin\\Desktop\\DataMaker\\AAA\\proj_v4\\Source\\app\\app.Build.cs",
-		"C:\\Users\\marin\\Desktop\\DataMaker\\AAA\\proj_v4\\Source\\app.Target.cs",
-		"C:\\Users\\marin\\Desktop\\DataMaker\\AAA\\proj_v4\\Source\\appEditor.Target.cs"
+		"C:\\Users\\yakru\\Documents\\GitHub\\mse_generating_datasets_for_photogrammetry\\proj_v4\\Source\\app\\app.Build.cs",
+		"C:\\Users\\yakru\\Documents\\GitHub\\mse_generating_datasets_for_photogrammetry\\proj_v4\\Source\\app.Target.cs",
+		"C:\\Users\\yakru\\Documents\\GitHub\\mse_generating_datasets_for_photogrammetry\\proj_v4\\Source\\appEditor.Target.cs"
 	],
-	"EngineVersion": "4.25.1"
+	"EngineVersion": "4.25.3"
 }
