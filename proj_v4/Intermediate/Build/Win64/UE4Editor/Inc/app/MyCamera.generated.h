@@ -16,6 +16,24 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define proj_v4_Source_app_MyCamera_h_14_SPARSE_DATA
 #define proj_v4_Source_app_MyCamera_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execToCancel); \
+	DECLARE_FUNCTION(execToRand); \
+	DECLARE_FUNCTION(execToDL); \
+	DECLARE_FUNCTION(execToDR); \
+	DECLARE_FUNCTION(execToUL); \
+	DECLARE_FUNCTION(execToUR); \
+	DECLARE_FUNCTION(execToDown); \
+	DECLARE_FUNCTION(execToUp); \
+	DECLARE_FUNCTION(execToLeft); \
+	DECLARE_FUNCTION(execToRight); \
+	DECLARE_FUNCTION(execStopMoveCamera); \
+	DECLARE_FUNCTION(execMoveCamera); \
+	DECLARE_FUNCTION(execGetMeshCoordZ); \
+	DECLARE_FUNCTION(execGetMeshCoordY); \
+	DECLARE_FUNCTION(execGetMeshCoordX); \
+	DECLARE_FUNCTION(execGetViewAngleZ); \
+	DECLARE_FUNCTION(execGetViewAngleY); \
+	DECLARE_FUNCTION(execGetViewAngleX); \
 	DECLARE_FUNCTION(execSetMeshVectorZ); \
 	DECLARE_FUNCTION(execSetMeshVectorY); \
 	DECLARE_FUNCTION(execSetMeshVectorX); \
@@ -27,6 +45,24 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define proj_v4_Source_app_MyCamera_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execToCancel); \
+	DECLARE_FUNCTION(execToRand); \
+	DECLARE_FUNCTION(execToDL); \
+	DECLARE_FUNCTION(execToDR); \
+	DECLARE_FUNCTION(execToUL); \
+	DECLARE_FUNCTION(execToUR); \
+	DECLARE_FUNCTION(execToDown); \
+	DECLARE_FUNCTION(execToUp); \
+	DECLARE_FUNCTION(execToLeft); \
+	DECLARE_FUNCTION(execToRight); \
+	DECLARE_FUNCTION(execStopMoveCamera); \
+	DECLARE_FUNCTION(execMoveCamera); \
+	DECLARE_FUNCTION(execGetMeshCoordZ); \
+	DECLARE_FUNCTION(execGetMeshCoordY); \
+	DECLARE_FUNCTION(execGetMeshCoordX); \
+	DECLARE_FUNCTION(execGetViewAngleZ); \
+	DECLARE_FUNCTION(execGetViewAngleY); \
+	DECLARE_FUNCTION(execGetViewAngleX); \
 	DECLARE_FUNCTION(execSetMeshVectorZ); \
 	DECLARE_FUNCTION(execSetMeshVectorY); \
 	DECLARE_FUNCTION(execSetMeshVectorX); \
