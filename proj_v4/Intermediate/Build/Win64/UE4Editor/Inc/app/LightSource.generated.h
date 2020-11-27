@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector;
 #ifdef APP_LightSource_generated_h
 #error "LightSource.generated.h already included, missing '#pragma once' in LightSource.h"
 #endif
@@ -16,6 +17,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define proj_v4_Source_app_LightSource_h_17_SPARSE_DATA
 #define proj_v4_Source_app_LightSource_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execsetModelPoint); \
 	DECLARE_FUNCTION(execchangeAngle_z); \
 	DECLARE_FUNCTION(execchangeAngle_y); \
 	DECLARE_FUNCTION(execchangeAngle_x); \
@@ -32,6 +34,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define proj_v4_Source_app_LightSource_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execsetModelPoint); \
 	DECLARE_FUNCTION(execchangeAngle_z); \
 	DECLARE_FUNCTION(execchangeAngle_y); \
 	DECLARE_FUNCTION(execchangeAngle_x); \

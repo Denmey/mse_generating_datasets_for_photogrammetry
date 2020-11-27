@@ -16,6 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define proj_v4_Source_app_MyCamera_h_14_SPARSE_DATA
 #define proj_v4_Source_app_MyCamera_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execMakeDataset); \
 	DECLARE_FUNCTION(execToCancel); \
 	DECLARE_FUNCTION(execToRand); \
 	DECLARE_FUNCTION(execToDL); \
@@ -45,6 +46,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define proj_v4_Source_app_MyCamera_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execMakeDataset); \
 	DECLARE_FUNCTION(execToCancel); \
 	DECLARE_FUNCTION(execToRand); \
 	DECLARE_FUNCTION(execToDL); \

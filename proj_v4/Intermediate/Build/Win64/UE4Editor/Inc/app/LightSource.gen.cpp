@@ -17,8 +17,17 @@ void EmptyLinkFunctionForGeneratedCodeLightSource() {}
 	APP_API UClass* Z_Construct_UClass_ALightSource();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_app();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UDirectionalLightComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(ALightSource::execsetModelPoint)
+	{
+		P_GET_STRUCT(FVector,Z_Param_model);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->setModelPoint(Z_Param_model);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ALightSource::execchangeAngle_z)
 	{
 		P_GET_PROPERTY(FFloatProperty,Z_Param_value);
@@ -130,6 +139,7 @@ void EmptyLinkFunctionForGeneratedCodeLightSource() {}
 			{ "setCoord_x", &ALightSource::execsetCoord_x },
 			{ "setCoord_y", &ALightSource::execsetCoord_y },
 			{ "setCoord_z", &ALightSource::execsetCoord_z },
+			{ "setModelPoint", &ALightSource::execsetModelPoint },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -544,6 +554,38 @@ void EmptyLinkFunctionForGeneratedCodeLightSource() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ALightSource_setModelPoint_Statics
+	{
+		struct LightSource_eventsetModelPoint_Parms
+		{
+			FVector model;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_model;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ALightSource_setModelPoint_Statics::NewProp_model = { "model", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(LightSource_eventsetModelPoint_Parms, model), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ALightSource_setModelPoint_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ALightSource_setModelPoint_Statics::NewProp_model,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALightSource_setModelPoint_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "LightSource.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ALightSource_setModelPoint_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALightSource, nullptr, "setModelPoint", nullptr, nullptr, sizeof(LightSource_eventsetModelPoint_Parms), Z_Construct_UFunction_ALightSource_setModelPoint_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_setModelPoint_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ALightSource_setModelPoint_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_setModelPoint_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ALightSource_setModelPoint()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALightSource_setModelPoint_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ALightSource_NoRegister()
 	{
 		return ALightSource::StaticClass();
@@ -580,6 +622,7 @@ void EmptyLinkFunctionForGeneratedCodeLightSource() {}
 		{ &Z_Construct_UFunction_ALightSource_setCoord_x, "setCoord_x" }, // 1617643229
 		{ &Z_Construct_UFunction_ALightSource_setCoord_y, "setCoord_y" }, // 3442838442
 		{ &Z_Construct_UFunction_ALightSource_setCoord_z, "setCoord_z" }, // 2901749440
+		{ &Z_Construct_UFunction_ALightSource_setModelPoint, "setModelPoint" }, // 491954959
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALightSource_Statics::Class_MetaDataParams[] = {
@@ -626,7 +669,7 @@ void EmptyLinkFunctionForGeneratedCodeLightSource() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALightSource, 4185133892);
+	IMPLEMENT_CLASS(ALightSource, 4137160395);
 	template<> APP_API UClass* StaticClass<ALightSource>()
 	{
 		return ALightSource::StaticClass();

@@ -20,6 +20,13 @@ void EmptyLinkFunctionForGeneratedCodeMyCamera() {}
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AMyCamera::execMakeDataset)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->MakeDataset();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AMyCamera::execToCancel)
 	{
 		P_FINISH;
@@ -99,9 +106,10 @@ void EmptyLinkFunctionForGeneratedCodeMyCamera() {}
 	}
 	DEFINE_FUNCTION(AMyCamera::execMoveCamera)
 	{
+		P_GET_PROPERTY(FIntProperty,Z_Param_screenCount);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->MoveCamera();
+		P_THIS->MoveCamera(Z_Param_screenCount);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(AMyCamera::execGetMeshCoordZ)
@@ -212,6 +220,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCamera() {}
 			{ "GetViewAngleX", &AMyCamera::execGetViewAngleX },
 			{ "GetViewAngleY", &AMyCamera::execGetViewAngleY },
 			{ "GetViewAngleZ", &AMyCamera::execGetViewAngleZ },
+			{ "MakeDataset", &AMyCamera::execMakeDataset },
 			{ "MoveCamera", &AMyCamera::execMoveCamera },
 			{ "SetArmLenght", &AMyCamera::execSetArmLenght },
 			{ "SetCameraPitch", &AMyCamera::execSetCameraPitch },
@@ -426,19 +435,66 @@ void EmptyLinkFunctionForGeneratedCodeMyCamera() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_AMyCamera_MoveCamera_Statics
+	struct Z_Construct_UFunction_AMyCamera_MakeDataset_Statics
 	{
+		struct MyCamera_eventMakeDataset_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AMyCamera_MakeDataset_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((MyCamera_eventMakeDataset_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AMyCamera_MakeDataset_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(MyCamera_eventMakeDataset_Parms), &Z_Construct_UFunction_AMyCamera_MakeDataset_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMyCamera_MakeDataset_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyCamera_MakeDataset_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyCamera_MakeDataset_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MyCamera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyCamera_MakeDataset_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCamera, nullptr, "MakeDataset", nullptr, nullptr, sizeof(MyCamera_eventMakeDataset_Parms), Z_Construct_UFunction_AMyCamera_MakeDataset_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCamera_MakeDataset_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyCamera_MakeDataset_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCamera_MakeDataset_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMyCamera_MakeDataset()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyCamera_MakeDataset_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMyCamera_MoveCamera_Statics
+	{
+		struct MyCamera_eventMoveCamera_Parms
+		{
+			int32 screenCount;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_screenCount;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AMyCamera_MoveCamera_Statics::NewProp_screenCount = { "screenCount", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyCamera_eventMoveCamera_Parms, screenCount), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMyCamera_MoveCamera_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyCamera_MoveCamera_Statics::NewProp_screenCount,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyCamera_MoveCamera_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "MyCamera.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyCamera_MoveCamera_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCamera, nullptr, "MoveCamera", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyCamera_MoveCamera_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCamera_MoveCamera_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyCamera_MoveCamera_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyCamera, nullptr, "MoveCamera", nullptr, nullptr, sizeof(MyCamera_eventMoveCamera_Parms), Z_Construct_UFunction_AMyCamera_MoveCamera_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCamera_MoveCamera_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyCamera_MoveCamera_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMyCamera_MoveCamera_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AMyCamera_MoveCamera()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -948,7 +1004,8 @@ void EmptyLinkFunctionForGeneratedCodeMyCamera() {}
 		{ &Z_Construct_UFunction_AMyCamera_GetViewAngleX, "GetViewAngleX" }, // 1682193999
 		{ &Z_Construct_UFunction_AMyCamera_GetViewAngleY, "GetViewAngleY" }, // 3425989526
 		{ &Z_Construct_UFunction_AMyCamera_GetViewAngleZ, "GetViewAngleZ" }, // 273367340
-		{ &Z_Construct_UFunction_AMyCamera_MoveCamera, "MoveCamera" }, // 3930372668
+		{ &Z_Construct_UFunction_AMyCamera_MakeDataset, "MakeDataset" }, // 1450489850
+		{ &Z_Construct_UFunction_AMyCamera_MoveCamera, "MoveCamera" }, // 2958672117
 		{ &Z_Construct_UFunction_AMyCamera_SetArmLenght, "SetArmLenght" }, // 4082588666
 		{ &Z_Construct_UFunction_AMyCamera_SetCameraPitch, "SetCameraPitch" }, // 2816099008
 		{ &Z_Construct_UFunction_AMyCamera_SetCameraRoll, "SetCameraRoll" }, // 4287717183
@@ -1022,7 +1079,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCamera() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyCamera, 1275446951);
+	IMPLEMENT_CLASS(AMyCamera, 2915798546);
 	template<> APP_API UClass* StaticClass<AMyCamera>()
 	{
 		return AMyCamera::StaticClass();
