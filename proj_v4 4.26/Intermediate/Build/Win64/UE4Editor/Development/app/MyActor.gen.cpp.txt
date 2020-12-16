@@ -1,0 +1,5 @@
+D:\mse_generating_datasets_for_photogrammetry\proj_v4 4.26\Intermediate\Build\Win64\UE4Editor\Development\app\Definitions.app.h
+D:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\mse_generating_datasets_for_photogrammetry\proj_v4 4.26\Source\app/MyActor.h
+D:\mse_generating_datasets_for_photogrammetry\proj_v4 4.26\Intermediate\Build\Win64\UE4Editor\Inc\app\MyActor.generated.h

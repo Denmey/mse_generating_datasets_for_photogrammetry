@@ -1,0 +1,13 @@
+D:\mse_generating_datasets_for_photogrammetry\proj_v4 4.26\Intermediate\Build\Win64\UE4Editor\Development\app\Definitions.app.h
+D:\mse_generating_datasets_for_photogrammetry\proj_v4 4.26\Source\app\LightSource.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/DirectionalLightComponent.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/LightComponent.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/LightComponentBase.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LightComponentBase.generated.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LightComponent.generated.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DirectionalLightComponent.generated.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/DirectionalLight.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Light.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Light.generated.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DirectionalLight.generated.h
+D:\mse_generating_datasets_for_photogrammetry\proj_v4 4.26\Intermediate\Build\Win64\UE4Editor\Inc\app\LightSource.generated.h
