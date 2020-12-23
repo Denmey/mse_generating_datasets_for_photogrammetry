@@ -1,9 +1,0 @@
-C:\Users\marin\Desktop\DataMaker\remote_repo\proj_v4\Intermediate\Build\Win64\UE4Editor\Development\app\Definitions.app.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\marin\Desktop\DataMaker\remote_repo\proj_v4\Source\app/MyCamera.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
-C:\Users\marin\Desktop\DataMaker\remote_repo\proj_v4\Intermediate\Build\Win64\UE4Editor\Inc\app\MyCamera.generated.h

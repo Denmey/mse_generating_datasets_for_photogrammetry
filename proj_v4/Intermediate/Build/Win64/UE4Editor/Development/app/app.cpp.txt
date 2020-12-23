@@ -1,2 +1,0 @@
-C:\Users\marin\Desktop\DataMaker\remote_repo\proj_v4\Intermediate\Build\Win64\UE4Editor\Development\app\Definitions.app.h
-C:\Users\marin\Desktop\DataMaker\remote_repo\proj_v4\Source\app\app.h
