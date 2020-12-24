@@ -1,7 +1,7 @@
 {
-	"BuildId": "14830424",
+	"BuildId": "8e6a80f8-1e01-4674-a629-724353a7e38a",
 	"Modules": 
 	{
-		"app": "UE4Editor-app-1230.dll"
+		"app": "UE4Editor-app.dll"
 	}
 }

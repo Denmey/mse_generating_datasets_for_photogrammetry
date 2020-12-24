@@ -18,7 +18,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
  \
 	DECLARE_FUNCTION(execMakeDataset); \
 	DECLARE_FUNCTION(execToCancel); \
-	DECLARE_FUNCTION(execToRand); \
+	DECLARE_FUNCTION(execToStop); \
 	DECLARE_FUNCTION(execToDL); \
 	DECLARE_FUNCTION(execToDR); \
 	DECLARE_FUNCTION(execToUL); \
@@ -29,12 +29,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execToRight); \
 	DECLARE_FUNCTION(execStopMoveCamera); \
 	DECLARE_FUNCTION(execMoveCamera); \
+	DECLARE_FUNCTION(execGetAspectRatioHeight); \
+	DECLARE_FUNCTION(execGetAspectRatioWidth); \
+	DECLARE_FUNCTION(execGetWhiteTint); \
+	DECLARE_FUNCTION(execGetWhiteTemp); \
+	DECLARE_FUNCTION(execGetMFStop); \
+	DECLARE_FUNCTION(execGetFStop); \
+	DECLARE_FUNCTION(execGetFocalDistance); \
+	DECLARE_FUNCTION(execGetISO); \
+	DECLARE_FUNCTION(execGetArmLenght); \
 	DECLARE_FUNCTION(execGetMeshCoordZ); \
 	DECLARE_FUNCTION(execGetMeshCoordY); \
 	DECLARE_FUNCTION(execGetMeshCoordX); \
 	DECLARE_FUNCTION(execGetViewAngleZ); \
 	DECLARE_FUNCTION(execGetViewAngleY); \
 	DECLARE_FUNCTION(execGetViewAngleX); \
+	DECLARE_FUNCTION(execSetAspectRatio); \
+	DECLARE_FUNCTION(execSetAspectRatioHeight); \
+	DECLARE_FUNCTION(execSetAspectRatioWidth); \
+	DECLARE_FUNCTION(execSetWhiteTint); \
+	DECLARE_FUNCTION(execSetWhiteTemp); \
+	DECLARE_FUNCTION(execSetMFStop); \
+	DECLARE_FUNCTION(execSetFStop); \
+	DECLARE_FUNCTION(execSetFocalDistance); \
+	DECLARE_FUNCTION(execSetISO); \
 	DECLARE_FUNCTION(execSetMeshVectorZ); \
 	DECLARE_FUNCTION(execSetMeshVectorY); \
 	DECLARE_FUNCTION(execSetMeshVectorX); \
@@ -48,7 +66,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
  \
 	DECLARE_FUNCTION(execMakeDataset); \
 	DECLARE_FUNCTION(execToCancel); \
-	DECLARE_FUNCTION(execToRand); \
+	DECLARE_FUNCTION(execToStop); \
 	DECLARE_FUNCTION(execToDL); \
 	DECLARE_FUNCTION(execToDR); \
 	DECLARE_FUNCTION(execToUL); \
@@ -59,12 +77,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execToRight); \
 	DECLARE_FUNCTION(execStopMoveCamera); \
 	DECLARE_FUNCTION(execMoveCamera); \
+	DECLARE_FUNCTION(execGetAspectRatioHeight); \
+	DECLARE_FUNCTION(execGetAspectRatioWidth); \
+	DECLARE_FUNCTION(execGetWhiteTint); \
+	DECLARE_FUNCTION(execGetWhiteTemp); \
+	DECLARE_FUNCTION(execGetMFStop); \
+	DECLARE_FUNCTION(execGetFStop); \
+	DECLARE_FUNCTION(execGetFocalDistance); \
+	DECLARE_FUNCTION(execGetISO); \
+	DECLARE_FUNCTION(execGetArmLenght); \
 	DECLARE_FUNCTION(execGetMeshCoordZ); \
 	DECLARE_FUNCTION(execGetMeshCoordY); \
 	DECLARE_FUNCTION(execGetMeshCoordX); \
 	DECLARE_FUNCTION(execGetViewAngleZ); \
 	DECLARE_FUNCTION(execGetViewAngleY); \
 	DECLARE_FUNCTION(execGetViewAngleX); \
+	DECLARE_FUNCTION(execSetAspectRatio); \
+	DECLARE_FUNCTION(execSetAspectRatioHeight); \
+	DECLARE_FUNCTION(execSetAspectRatioWidth); \
+	DECLARE_FUNCTION(execSetWhiteTint); \
+	DECLARE_FUNCTION(execSetWhiteTemp); \
+	DECLARE_FUNCTION(execSetMFStop); \
+	DECLARE_FUNCTION(execSetFStop); \
+	DECLARE_FUNCTION(execSetFocalDistance); \
+	DECLARE_FUNCTION(execSetISO); \
 	DECLARE_FUNCTION(execSetMeshVectorZ); \
 	DECLARE_FUNCTION(execSetMeshVectorY); \
 	DECLARE_FUNCTION(execSetMeshVectorX); \
