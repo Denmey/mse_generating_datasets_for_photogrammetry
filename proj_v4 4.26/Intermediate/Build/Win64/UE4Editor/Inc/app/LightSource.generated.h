@@ -22,6 +22,13 @@ struct FVector;
 	DECLARE_FUNCTION(execchangeAngle_y); \
 	DECLARE_FUNCTION(execchangeAngle_x); \
 	DECLARE_FUNCTION(execchangeColor); \
+	DECLARE_FUNCTION(execgetIntens); \
+	DECLARE_FUNCTION(execgetColorOfLight); \
+	DECLARE_FUNCTION(execgetAngleY); \
+	DECLARE_FUNCTION(execgetAngleX); \
+	DECLARE_FUNCTION(execgetAngleZ); \
+	DECLARE_FUNCTION(execgetY); \
+	DECLARE_FUNCTION(execgetX); \
 	DECLARE_FUNCTION(execgetZ); \
 	DECLARE_FUNCTION(execchangeIntensity); \
 	DECLARE_FUNCTION(execsetCoord_z); \
@@ -39,6 +46,13 @@ struct FVector;
 	DECLARE_FUNCTION(execchangeAngle_y); \
 	DECLARE_FUNCTION(execchangeAngle_x); \
 	DECLARE_FUNCTION(execchangeColor); \
+	DECLARE_FUNCTION(execgetIntens); \
+	DECLARE_FUNCTION(execgetColorOfLight); \
+	DECLARE_FUNCTION(execgetAngleY); \
+	DECLARE_FUNCTION(execgetAngleX); \
+	DECLARE_FUNCTION(execgetAngleZ); \
+	DECLARE_FUNCTION(execgetY); \
+	DECLARE_FUNCTION(execgetX); \
 	DECLARE_FUNCTION(execgetZ); \
 	DECLARE_FUNCTION(execchangeIntensity); \
 	DECLARE_FUNCTION(execsetCoord_z); \
