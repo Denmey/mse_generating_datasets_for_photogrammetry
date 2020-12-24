@@ -60,6 +60,55 @@ void EmptyLinkFunctionForGeneratedCodeLightSource() {}
 		P_THIS->changeColor(Z_Param_value);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(ALightSource::execgetIntens)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=P_THIS->getIntens();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ALightSource::execgetColorOfLight)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(FString*)Z_Param__Result=P_THIS->getColorOfLight();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ALightSource::execgetAngleY)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=P_THIS->getAngleY();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ALightSource::execgetAngleX)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=P_THIS->getAngleX();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ALightSource::execgetAngleZ)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=P_THIS->getAngleZ();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ALightSource::execgetY)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=P_THIS->getY();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ALightSource::execgetX)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=P_THIS->getX();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ALightSource::execgetZ)
 	{
 		P_FINISH;
@@ -132,6 +181,13 @@ void EmptyLinkFunctionForGeneratedCodeLightSource() {}
 			{ "changeAngle_z", &ALightSource::execchangeAngle_z },
 			{ "changeColor", &ALightSource::execchangeColor },
 			{ "changeIntensity", &ALightSource::execchangeIntensity },
+			{ "getAngleX", &ALightSource::execgetAngleX },
+			{ "getAngleY", &ALightSource::execgetAngleY },
+			{ "getAngleZ", &ALightSource::execgetAngleZ },
+			{ "getColorOfLight", &ALightSource::execgetColorOfLight },
+			{ "getIntens", &ALightSource::execgetIntens },
+			{ "getX", &ALightSource::execgetX },
+			{ "getY", &ALightSource::execgetY },
 			{ "getZ", &ALightSource::execgetZ },
 			{ "quickChange_distance", &ALightSource::execquickChange_distance },
 			{ "quickChange_height", &ALightSource::execquickChange_height },
@@ -300,6 +356,230 @@ void EmptyLinkFunctionForGeneratedCodeLightSource() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALightSource_changeIntensity_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ALightSource_getAngleX_Statics
+	{
+		struct LightSource_eventgetAngleX_Parms
+		{
+			float ReturnValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ALightSource_getAngleX_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(LightSource_eventgetAngleX_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ALightSource_getAngleX_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ALightSource_getAngleX_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALightSource_getAngleX_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "LightSource.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ALightSource_getAngleX_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALightSource, nullptr, "getAngleX", nullptr, nullptr, sizeof(LightSource_eventgetAngleX_Parms), Z_Construct_UFunction_ALightSource_getAngleX_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_getAngleX_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ALightSource_getAngleX_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_getAngleX_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ALightSource_getAngleX()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALightSource_getAngleX_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ALightSource_getAngleY_Statics
+	{
+		struct LightSource_eventgetAngleY_Parms
+		{
+			float ReturnValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ALightSource_getAngleY_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(LightSource_eventgetAngleY_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ALightSource_getAngleY_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ALightSource_getAngleY_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALightSource_getAngleY_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "LightSource.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ALightSource_getAngleY_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALightSource, nullptr, "getAngleY", nullptr, nullptr, sizeof(LightSource_eventgetAngleY_Parms), Z_Construct_UFunction_ALightSource_getAngleY_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_getAngleY_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ALightSource_getAngleY_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_getAngleY_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ALightSource_getAngleY()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALightSource_getAngleY_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ALightSource_getAngleZ_Statics
+	{
+		struct LightSource_eventgetAngleZ_Parms
+		{
+			float ReturnValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ALightSource_getAngleZ_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(LightSource_eventgetAngleZ_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ALightSource_getAngleZ_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ALightSource_getAngleZ_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALightSource_getAngleZ_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "LightSource.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ALightSource_getAngleZ_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALightSource, nullptr, "getAngleZ", nullptr, nullptr, sizeof(LightSource_eventgetAngleZ_Parms), Z_Construct_UFunction_ALightSource_getAngleZ_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_getAngleZ_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ALightSource_getAngleZ_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_getAngleZ_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ALightSource_getAngleZ()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALightSource_getAngleZ_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ALightSource_getColorOfLight_Statics
+	{
+		struct LightSource_eventgetColorOfLight_Parms
+		{
+			FString ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_ALightSource_getColorOfLight_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(LightSource_eventgetColorOfLight_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ALightSource_getColorOfLight_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ALightSource_getColorOfLight_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALightSource_getColorOfLight_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "LightSource.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ALightSource_getColorOfLight_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALightSource, nullptr, "getColorOfLight", nullptr, nullptr, sizeof(LightSource_eventgetColorOfLight_Parms), Z_Construct_UFunction_ALightSource_getColorOfLight_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_getColorOfLight_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ALightSource_getColorOfLight_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_getColorOfLight_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ALightSource_getColorOfLight()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALightSource_getColorOfLight_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ALightSource_getIntens_Statics
+	{
+		struct LightSource_eventgetIntens_Parms
+		{
+			float ReturnValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ALightSource_getIntens_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(LightSource_eventgetIntens_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ALightSource_getIntens_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ALightSource_getIntens_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALightSource_getIntens_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "LightSource.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ALightSource_getIntens_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALightSource, nullptr, "getIntens", nullptr, nullptr, sizeof(LightSource_eventgetIntens_Parms), Z_Construct_UFunction_ALightSource_getIntens_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_getIntens_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ALightSource_getIntens_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_getIntens_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ALightSource_getIntens()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALightSource_getIntens_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ALightSource_getX_Statics
+	{
+		struct LightSource_eventgetX_Parms
+		{
+			float ReturnValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ALightSource_getX_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(LightSource_eventgetX_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ALightSource_getX_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ALightSource_getX_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALightSource_getX_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "LightSource.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ALightSource_getX_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALightSource, nullptr, "getX", nullptr, nullptr, sizeof(LightSource_eventgetX_Parms), Z_Construct_UFunction_ALightSource_getX_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_getX_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ALightSource_getX_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_getX_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ALightSource_getX()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALightSource_getX_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ALightSource_getY_Statics
+	{
+		struct LightSource_eventgetY_Parms
+		{
+			float ReturnValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ALightSource_getY_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(LightSource_eventgetY_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ALightSource_getY_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ALightSource_getY_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALightSource_getY_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "LightSource.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ALightSource_getY_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALightSource, nullptr, "getY", nullptr, nullptr, sizeof(LightSource_eventgetY_Parms), Z_Construct_UFunction_ALightSource_getY_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_getY_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ALightSource_getY_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSource_getY_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ALightSource_getY()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALightSource_getY_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -615,6 +895,13 @@ void EmptyLinkFunctionForGeneratedCodeLightSource() {}
 		{ &Z_Construct_UFunction_ALightSource_changeAngle_z, "changeAngle_z" }, // 2847738660
 		{ &Z_Construct_UFunction_ALightSource_changeColor, "changeColor" }, // 94234753
 		{ &Z_Construct_UFunction_ALightSource_changeIntensity, "changeIntensity" }, // 2323081667
+		{ &Z_Construct_UFunction_ALightSource_getAngleX, "getAngleX" }, // 3552591524
+		{ &Z_Construct_UFunction_ALightSource_getAngleY, "getAngleY" }, // 3299941953
+		{ &Z_Construct_UFunction_ALightSource_getAngleZ, "getAngleZ" }, // 4273671715
+		{ &Z_Construct_UFunction_ALightSource_getColorOfLight, "getColorOfLight" }, // 1201234726
+		{ &Z_Construct_UFunction_ALightSource_getIntens, "getIntens" }, // 1425715208
+		{ &Z_Construct_UFunction_ALightSource_getX, "getX" }, // 174463984
+		{ &Z_Construct_UFunction_ALightSource_getY, "getY" }, // 1135287846
 		{ &Z_Construct_UFunction_ALightSource_getZ, "getZ" }, // 3604329934
 		{ &Z_Construct_UFunction_ALightSource_quickChange_distance, "quickChange_distance" }, // 1660550902
 		{ &Z_Construct_UFunction_ALightSource_quickChange_height, "quickChange_height" }, // 3164232773
@@ -669,7 +956,7 @@ void EmptyLinkFunctionForGeneratedCodeLightSource() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALightSource, 2147567811);
+	IMPLEMENT_CLASS(ALightSource, 3082609856);
 	template<> APP_API UClass* StaticClass<ALightSource>()
 	{
 		return ALightSource::StaticClass();

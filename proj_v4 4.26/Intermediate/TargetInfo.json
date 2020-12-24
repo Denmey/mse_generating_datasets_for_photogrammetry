@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "app",
-			"Path": "D:\\mse_generating_datasets_for_photogrammetry\\proj_v4 4.26\\Source\\app.Target.cs",
+			"Path": "C:\\Users\\yakru\\Documents\\GitHub\\mse_generating_datasets_for_photogrammetry\\proj_v4 4.26\\Source\\app.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "appEditor",
-			"Path": "D:\\mse_generating_datasets_for_photogrammetry\\proj_v4 4.26\\Source\\appEditor.Target.cs",
+			"Path": "C:\\Users\\yakru\\Documents\\GitHub\\mse_generating_datasets_for_photogrammetry\\proj_v4 4.26\\Source\\appEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
